@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoSpatial Solutions</title>
+    <style>
+        body{max-width: 1000px;
+        margin: auto;}
+
+        .logo{
+            background-image: url(gis.JPG);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment:scroll;
+            background-size: 1000px;
+            width: auto;
+            height: 400px;
+            padding: 0;
+            
+            
+        }
+        .logo h1{
+
+            background-color: rgb(16, 17, 17);
+            text-align: center;
+            text-decoration: solid;
+            color: rgb(248, 247, 247);
+            padding: 0;
+            margin: 0px;
+                      
+        }
+        
+        .menu ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(10, 11, 11);
+            
+        }
+        .menu li{
+            float: left;
+        }
+        .menu li a{
+            Display: block;
+            color: rgb(242, 241, 241);
+            text-align: center;
+            text-decoration: solid;
+            padding: 20px 50px;
+            font-size: larger;
+        }
+        .menu li a:hover{background-color: rgb(16, 150, 103);  
+        }
+       
+        .servicee table , td, th {
+            border: 1px none;
+        }
+        .service table {
+            margin: auto;
+            width: 60%;
+            border-collapse: collapse;
+            align-items: center;
+        }
+        .service img{
+            width: 100%;
+            height: auto;
+        }
+        .service table{
+            padding: 10px   ;
+            text-align: left;
+        }
+        
+        
+        .content table{
+            margin: auto;
+        }
+        .content table button {
+            color: rgb(3, 3, 3);
+            font-weight: bold;
+            height: 50px;
+            width: 200px;
+            background-color: aliceblue;
+            padding: auto;
+        }
+
+        .content table button:hover{
+            background-color:rgb(3, 129, 64);
+            color : white
+        }
+
+        .content table tr td {
+            
+            
+            text-align: center;
+            background-color: rgb(230, 230, 243);
+        }
+
+        h3{
+
+            background-color: rgb(16, 17, 17);
+            text-align: center;
+            text-decoration: solid;
+            color: rgb(248, 247, 247);
+            padding: 0;
+            margin: 0px;
+                      
+        }
+        .Surveying tr td ul li {
+            
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding: auto;
+
+        }
+
+        #Surveying tr td img{
+            max-width: 480px ;
+            max-height: 480px;
+        }
+        .button{
+            background-image: url(mapsmania.gif);
+        }
+        .button h2 {
+            color: rgb(3, 3, 3);
+            font-size: x-large;
+            font-weight: bold;
+            font-style: italic;
+            background-color: aliceblue;
+        }
+         button{
+            justify-content: center;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(17, 17, 173);
+            color: aliceblue;
+            font-weight: bolder;
+            height: 40px;
+            }
+        .anim{
+                width: 100px;
+                height: 100px;
+                background:white;
+                position: relative;
+                animation: myfirst 120s 1;
+                animation-direction: alternate;
+              }
+              
+              @keyframes myfirst {
+                0%   {background: rgb(253, 254, 255); left: 0px; top: 0px;}
+                25%  {background: rgb(243, 244, 244); left: 600px; top: 0px;}
+                
+              }
+          
+    </style>
+</head>
+<body>
+    <script language="JavaScript" type="text/JavaScript">
+        function clickevent(){
+            document.write("Welcome to Geospatial Technology ,contact *************");
+        }
+        function scrolldiv1() {
+            var elem = document.getElementById("Surveying");
+            elem.scrollIntoView();
+        }
+        function scrolldiv2() {
+            var elem = document.getElementById("Geospatial Analysis");
+            elem.scrollIntoView();
+        }
+        function scrolldiv3() {
+            var elem = document.getElementById("Remote Sensing");
+            elem.scrollIntoView();
+        }
+        function scrolldiv4() {
+            var elem = document.getElementById("Spatial Database");
+            elem.scrollIntoView();
+        }
+        function scrolldiv5() {
+            var elem = document.getElementById("Open Source GIS");
+            elem.scrollIntoView();
+        }
+    
+    </script>
+    <div class="logo">
+    <h1 >Explore The World With Precision </h1>    
+       
+           
+    </div>
+    <div class="menu">
+        <ul >
+            <li ><a href="Index.html">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Training</a></li>
+
+        </ul>
+    </div>
+    
+    <div class="service" > 
+        <h2 style="text-align: center;">Our Services</h2>
+
+        <table>
+            <tr style="text-align: center;">
+                
+                <td>Surveyig & Spatial Data</td>
+                <td>GIS Server</td>
+               <td>GIS Applications   </td>  
+            </tr>
+            <tr>
+                <td>
+                    <img src="consulting.jpg" alt="services" >
+                </td>
+                <td>
+                    <img src="server.jpg" alt="services">
+                </td>
+                <td>
+                    <img src="application.jpg" alt="services">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li >Land Surveying </li>
+                        <li>Construction Surveying </li>
+                        <li>GeoSpatail Data collection</li>
+                        <li>Training</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Opensource GIS </li>
+                        <li>Remote Sensing </li>
+                        <li>Training</li>
+                        <li>GIS Server</li>
+
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>Web Maps </li>
+                        <li>Web Applications </li>
+                        <li>WMS & WFS Services</li>
+                        <li>Android Applications</li>
+                        <li>Training</li>
+
+                    </ul>
+                </td>
+            </tr>
+            
+        </table>
+        
+    </div>
+    <div class="anim">
+        <p style="text-align: center;">QGIS Training</p>
+        <button onclick="clickevent()" >Contact Now</button>
+
+    </div>
+
+    <div class="content">
+        <h2>Our Areas of expertise</h2>
+        <table>
+            <tr>
+                <td>
+                    <button onclick="scrolldiv1()">Surveying</button>
+                </td>
+                <td>
+                    <button onclick="scrolldiv2()">Geospatial Analysis</button>
+                </td>
+                <td>
+                    <button onclick="scrolldiv3()">Remote Sensing</button>
+                </td>
+                <td>
+                    <button onclick="scrolldiv4()">Spatial Database</button>
+                </td>
+                <td>
+                    <button onclick="scrolldiv5()">Open Source GIS</button>
+                </td>
+
+            </tr>
+        </table>
+    </div>
+    <div id="Surveying">
+        <table>
+             
+            <tr>
+                <td>
+                    <h2 style="text-align: center;">Surveying</h2> 
+                    <p>Surveying is closely related to the Earth, encompassing aspects from land property to roads, bridges, and buildings. We assist clients in collecting real-world data with high accuracy and precision. We provide location data using points, lines, and polygons, along with 
+                    various attribute details that meet their specific requirements. Our team comprises highly qualified professionals.</p>
+                    <ul>
+                        <li>Land & Property Surveying</li>
+                        <li>Construction Surveying</li>
+                        <li>Topographic Surveying </li>
+                        <li>Digital Elvevation Models</li>
+                        <li>Location Data Collection</li>
+                        <li>Data Collection For Analysis</li>
+
+                    </ul>
+                </td>
+                <td><img src="surveyor.jpg" alt="surveying"  ></td>
+            </tr>
+    </div>
+        </table>
+    <div id="Geospatial Analysis">    
+        <table>
+             
+            <tr>
+                <td>
+                    <h2 style="text-align: center;">Geospatial Analysis</h2> 
+                    <p>SGeospatial analysis is used by many sectors, including commercial, government, academia, environmental, public health, and more. We help clients leverage geospatial 
+                        analysis to solve problems, improve productivity, and increase locational awareness. Possible applications include:</p>
+                    <ul>
+                        <li>Erosion modelling in agricultural or coastal areas. </li>
+                        <li>Examining the distribution of archaeological assemblages.</li>
+                        <li>Monitoring conservation areas.</li>
+                        <li>Defining food deserts and swamps in urban areas.</li>
+                        <li>Precision agriculture and farm management.</li>
+                        <li>Watershed and subwatershed delineation using 3D terrain analysis.</li>
+
+                    </ul>
+                </td>
+                <td><img src="analysis.png" alt="surveying"></td>
+            </tr>
+    
+        </table>
+    </div>
+    <div id="Remote Sensing"> 
+        <table>
+            
+            <tr>
+                <td>
+                    <h2 style="text-align: center;">Remote Sensing</h2> 
+                    <p>We specialize in processing, analyzing, and optimizing earth observation data. We have worked with various sensors 
+                        and platforms, including Landsat, Sentinel, airborne sensors, LiDAR, and UAVs etc. Remote sensing allows us to:.</p>
+                    <ul>
+                        <li>Conduct land cover and land use change analysis.</li>
+                        <li>Identify terrain changes over time.</li>
+                        <li> Analyze agricultural growth patterns and deficiencies. </li>
+                        <li>Digital Elvevation Models</li>
+                        <li>Quantify and map forest health.</li>
+                        <li>Identify and map features in imagery.</li>
+
+                    </ul>
+                </td>
+                <td><img src="remotesensing.jpg" alt="surveying"></td>
+            </tr>
+
+        </table>
+    </div> 
+    <div id="Spatial Database">   
+        <table>
+             
+            <tr>
+                <td>
+                    <h2 style="text-align: center;">Spatial Database</h2> 
+                    <p>SDesigning, building, and managing spatial databases with PostgreSQL/PostGIS is our strength. We build fully managed, cloud-based databases that leverage trigger functions, foreign data wrappers, vector tiles, network analysis, 
+                        materialized views, and spatial relationships. With QGIS, we integrate some great features to work with PostGIS, such as:</p>
+                    <ul>
+                        <li> Full database management </li>
+                        <li>Basic and advanced layer editing</li>
+                        <li>Spatial analysis within the database </li>
+                        <li>Data import/export functions</li>
+                        <li>User and group role management</li>
+                        
+                    </ul>
+                </td>
+                <td><img src="features.png" alt="surveying"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="Open Source GIS"> 
+        <table>    
+            <tr>
+                <td>
+                    <h2 style="text-align: center;">Open Source GIS</h2> 
+                    <p>SWe have been working almost exclusively with open source GIS for well over a decade. Free and open source (FOSS) GIS software is a feature rich and cost effective alternative
+                         to proprietary software. We develop solutions for desktop, web, and/or mobile with many FOSS GIS applications, such as:</p>
+                    <ul>
+                        <li> QGIS
+                            </li>
+                        <li>Geoserver</li>
+                        <li>TPostGIS </li>
+                        <li>GDAL</li>
+                        <li>PostGIS</li>
+                        <li>QGIS Plugin Development</li>
+
+                    </ul>
+                </td>
+                <td><img src="open.png" alt="surveying"></td>
+            </tr>
+
+        </table>
+              
+           
+    </div><br><br>
+
+    <div class="button">
+        <h2 style="text-align: center;">Looking for a geospatial partner?</h2><br>
+        <button onclick="clickevent()">Contact US</button>
+    </div><br><br><br><br>    
+</body>
+<footer>
+    
+    <h3>Author : M.F.M. Mafaz</h3>
+</footer>
+</html>
